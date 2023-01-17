@@ -1,0 +1,67 @@
+.Form-component {
+    color: #fff;
+    font-family: Ubuntu, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 380px;
+}
+
+.buttonBlock {
+    margin-top: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+button {
+    color: #fff;
+    background: linear-gradient(93.88deg, #2F98CF 51.56%, #2FCFB2 100%);
+    box-shadow: 2px 2px 8px rgba(37, 37, 37, 0.25);
+    border-radius: 5px;
+    padding: 10px 35px;
+    border-width: 0;
+    flex-wrap: wrap;
+}
+
+button:active {
+    background: #2E353B;
+}
+
+.formBox {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #373F48;
+    padding: 20px 0 30px 0;
+
+}
+
+.form {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+input {
+    background: #42484F;
+    box-shadow: 2px 2px 8px rgba(37, 37, 37, 0.25);
+    border-radius: 5px;
+    width: 95%;
+    border-width: 0;
+    padding: 8px 5px;
+}
+
+*:focus {
+    outline: none;
+}
